@@ -1,9 +1,35 @@
-.section-hero{}
-.title-one{}
-.section-two{}
-.section-three{}
+.header {
+}
+.section-hero {
+}
+.title-one {
+}
+.section-two {
+}
+.section-three {
+}
 
-.section-four{}
-.section-five{}
-.section-six{}
-.section-seven{}
+.section-four {
+}
+.section-five {
+}
+.section-six {
+}
+.section-seven {
+}
+.buttons {
+
+}
+.disflex {
+    display: flex;
+    flex-direction: row;
+}
+nav {
+    margin-left: 32px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
