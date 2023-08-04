@@ -1,10 +1,24 @@
+:root {
+}
 .header {
 }
+.section {
+  margin-left: 112px;
+}
+
 .section-hero {
 }
 .title-one {
 }
 .section-two {
+  display: flex;
+  padding: 16px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  align-self: stretch;
+}
+.list-logo {
 }
 .section-three {
 }
@@ -14,22 +28,42 @@
 .section-five {
 }
 .section-six {
+  display: inline-block;
 }
 .section-seven {
 }
 .buttons {
-
 }
 .disflex {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+}
+.list {
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.list-item {
+  padding: 8px;
 }
 nav {
-    margin-left: 32px;
+  margin-left: 32px;
 }
 .header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
+.text {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.trademark{font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;}
