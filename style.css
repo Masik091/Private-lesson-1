@@ -1,5 +1,5 @@
 :root {
-    --text: #111827;
+  --text: #111827;
 }
 .header {
 }
@@ -16,17 +16,60 @@
   padding: 16px 0px;
   justify-content: center;
   align-items: center;
-  gap: 64px;
   align-self: stretch;
 }
 .list-logo {
+  width: 1212px;
+  padding: 24px 0;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  align-items: center;
+  justify-content: center;
 }
 .section-three {
 }
-
+.item-1 {
+  grid-area: item1;
+}
+.item-2 {
+  grid-area: item2;
+}
+.item-3 {
+  grid-area: item3;
+}
+.item-4 {
+  grid-area: item4;
+}
+.item-5 {
+  grid-area: item5;
+}
+.item-6 {
+  grid-area: item6;
+}
 .section-four {
 }
 .section-five {
+}
+
+.list-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "item1 item2"
+    "item3 item4";
+}
+.item-downloads-1 {
+  grid-area: item1;
+}
+.item-downloads-2 {
+  grid-area: item2;
+}
+.item-downloads-3 {
+  grid-area: item3;
+}
+.item-downloads-4 {
+  grid-area: item4;
 }
 .section-six {
   display: inline-block;
@@ -38,11 +81,18 @@
 .disflex {
   display: flex;
   flex-direction: row;
+  gap: 64px;
 }
 .list {
   margin-left: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "item1 item2 item3"
+    "item4 item5 item6";
 }
 .list-item {
   padding: 8px;
@@ -65,8 +115,10 @@ nav {
   color: var(--text);
 }
 
-.trademark{font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;}
+.trademark {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
