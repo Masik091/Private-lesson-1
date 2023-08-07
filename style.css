@@ -2,6 +2,7 @@
   --text: #111827;
   --text-hero: #374151;
   --btn-clr: #7C3AED;
+  --text-sct-svn: #111827;
 }
 .header {
   display: flex;
@@ -133,7 +134,26 @@ line-height: 20px;
   display: inline-block;
 }
 .section-seven {
+  padding: 111px;
+  display: flex;
+  padding-right: 32px;
 }
+.text-sct-svn{
+  padding-top: 48px;
+  margin-bottom: 8px;
+  font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+color: var(--text-sct-svn);
+}
+.get-the-app{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;}
+
 .buttons {
 }
 
