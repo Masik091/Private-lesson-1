@@ -1,5 +1,7 @@
 :root {
   --text: #111827;
+  --text-hero: #374151;
+  --btn-clr: #7C3AED;
 }
 .header {
   display: flex;
@@ -7,7 +9,12 @@
   gap: 8px;
   width: 1216px;
   backdrop-filter: blur(50px);
-  margin-bottom: 72px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 20px;
 }
 .navigation {
   display: flex;
@@ -25,19 +32,14 @@
   gap: 4px;
 }
 .section {
-  margin-left: 112px;
   width: 1216px;
+  margin: 0 auto;
 }
 
-.section-hero {
-    display: flex;
-    width: 1216px;
-    padding-top: 96px;
-    padding-right: 48px;
-}
 .section-one{
-    
-
+  padding-top: 96px;
+  display: flex;
+  padding-right: 48px;
 }
 .title-one {
     color: var(--text);
@@ -51,6 +53,12 @@ margin-bottom: 16px;
 }
 .text-hero{
     margin-bottom: 32px;
+    font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+color: var(--text-hero);
 }
 .picture{}
 .section-two {
@@ -59,6 +67,14 @@ margin-bottom: 16px;
   justify-content: center;
   align-items: center;
   align-self: stretch;
+}
+
+.list-item{
+  font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
 }
 .list-logo {
   width: 1212px;
@@ -120,11 +136,41 @@ margin-bottom: 16px;
 }
 .buttons {
 }
+
+.button-start{
+  padding: 16px 24px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: var(--btn-clr);
+border: 0;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+}
+.button-video{
+  padding: 16px 24px;
+  border-radius: 8px;
+  color: #fff;
+  color: var(--btn-clr);
+border: 0;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+background-color: inherit;
+display: inline-flex;
+}
+.button-video-img {
+  margin-right: 8px;
+}
 .disflex {
   list-style: none;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 64px;
 }
 .list {
   margin-left: auto;
@@ -143,12 +189,7 @@ margin-bottom: 16px;
 nav {
   margin-left: 32px;
 }
-.header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
+
 .text {
   font-family: Inter;
   font-size: 18px;
