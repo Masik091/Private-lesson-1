@@ -3,6 +3,9 @@
   --text-hero: #374151;
   --btn-clr: #7c3aed;
   --text-sct-svn: #111827;
+  --sct-four: #D5FAFC;
+  --footer-back-clr: #000;
+  --text-footer: #fff;
 }
 .header {
   display: flex;
@@ -115,6 +118,7 @@
   grid-area: item6;
 }
 .section-four {
+  background-color: var(--sct-four);
 }
 .text-sct-four {
   font-family: Inter;
@@ -245,4 +249,8 @@ nav {
   line-height: 20px;
 }
 .footer-cont {
+  background-color: var(--footer-back-clr);
+}
+.text-footer{
+  color: var(--text-footer);
 }
