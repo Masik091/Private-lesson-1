@@ -188,7 +188,21 @@ margin-bottom: 8px;
   grid-area: item4;
 }
 .section-six {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  gap: 32px;
+}
+.container-logo{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+      "item-x1 item-x2 item-x3 item-x4"
+      "item-x5 item-x6 item-x7;
+  column-gap: 32px;
+  row-gap: 40px;
 }
 .section-seven {
   padding: 111px;
