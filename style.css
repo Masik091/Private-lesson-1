@@ -200,10 +200,11 @@ margin-bottom: 8px;
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
       "item-x1 item-x2 item-x3 item-x4"
-      "item-x5 item-x6 item-x7;
+      "item-x5 item-x6 item-x7";
   column-gap: 32px;
   row-gap: 40px;
 }
+
 .section-seven {
   padding: 111px;
   display: flex;
