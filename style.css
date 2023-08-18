@@ -164,7 +164,7 @@ margin-bottom: 8px;
   display: flex;
   flex-direction: row;
 }
-
+/* Section 5 */
 .list-3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -187,6 +187,8 @@ margin-bottom: 8px;
 .item-downloads-4 {
   grid-area: item4;
 }
+
+/* section 6 */
 .section-six {
   display: flex;
   flex-direction: row;
@@ -196,16 +198,40 @@ margin-bottom: 8px;
 }
 .container-logo{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
-      "item-x1 item-x2 item-x3 item-x4"
-      "item-x5 item-x6 item-x7";
-  column-gap: 32px;
-  row-gap: 40px;
+      "itemx1 . itemx2 . itemx3 . itemx4"
+      ". itemx5 . itemx6 . itemx7 .";
+  row-gap: 64px;
 }
 
+.item-x1{
+  grid-area: itemx1
+}
+.item-x2{
+  grid-area: itemx2
+}
+.item-x3{
+  grid-area: itemx3
+}
+.item-x4{
+  grid-area: itemx4
+}
+.item-x5{
+  grid-area: itemx5
+}
+.item-x6{
+  grid-area: itemx6
+}
+.item-x7{
+  grid-area: itemx7
+}
+
+
+/* Section 7 */
 .section-seven {
+  display: flex;
   padding: 111px;
   display: flex;
   padding-right: 32px;
@@ -220,6 +246,17 @@ margin-bottom: 8px;
   line-height: 28px;
   color: var(--text-sct-svn);
 }
+.pictures{
+display: flex;
+  height: 558px;
+}
+.picture-2{
+  align-self: flex-end;
+}
+.picture-1 {
+  width: 320px;
+}
+
 .get-the-app {
   display: flex;
   flex-direction: column;
