@@ -48,7 +48,6 @@ p, h2, h1, h3 {
 .section-one {
   padding-top: 96px;
   display: flex;
-  padding-right: 48px;
 }
 .title-one {
   color: var(--text);
@@ -143,6 +142,9 @@ margin-bottom: 8px;
 .section-four {
   background-color: var(--sct-four);
 }
+.w100 {
+  width: 100%;
+}
 .text-sct-four {
   font-family: Inter;
   font-size: 18px;
@@ -196,14 +198,33 @@ margin-bottom: 8px;
   padding-bottom: 80px;
   gap: 32px;
 }
+.section-six .container {
+  max-width: 448px;
+  width: 100%;
+}
+.section-six .container-logo {
+  width: 100%;
+}
 .container-logo{
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
       "itemx1 . itemx2 . itemx3 . itemx4"
       ". itemx5 . itemx6 . itemx7 .";
   row-gap: 64px;
+  margin: 0 78px;
+  position: relative;
+  max-width: 500px;
+  padding-top: 20px;
+}
+.container-logo .circle {
+  width: 500px;
+  height: 250px;
+  background-color: #EDE9FE;
+  border-radius: 0rem 0rem 250rem 250rem;
+  position: absolute;
+  z-index: -1;
 }
 
 .item-x1{
@@ -231,11 +252,30 @@ margin-bottom: 8px;
 
 /* Section 7 */
 .section-seven {
-  display: flex;
-  padding: 111px;
-  display: flex;
-  padding-right: 32px;
+ 
+  background-color: #1DB5BE;
+  
 }
+.section-seven-bg {
+    background-color: #1DB5BE;
+}
+.sect-svn{
+  width: 100%;
+}
+.svn-bg{
+  display: flex;
+  gap: 32px;
+
+}
+.title-svn{
+  font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+letter-spacing: -1.2px;
+  margin-top: 111px;
+  margin-bottom: 8px;}
 .text-sct-svn {
   padding-top: 48px;
   margin-bottom: 8px;
@@ -249,12 +289,15 @@ margin-bottom: 8px;
 .pictures{
 display: flex;
   height: 558px;
+  width: 100%;
 }
 .picture-2{
   align-self: flex-end;
+
 }
 .picture-1 {
   width: 320px;
+  
 }
 
 .get-the-app {
