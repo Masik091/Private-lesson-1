@@ -401,3 +401,48 @@ nav {
 .text-footer{
   color: var(--text-footer);
 }
+
+.footer-div-one{
+  display: flex;
+  row-gap: 24px;
+  flex-direction: column;
+}
+.footer-logo {
+  width: 50px;;
+}
+.disflex{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "download download license . . ."
+    "about features pricing news help contact";
+    row-gap: 12px;
+    column-gap: 24px;
+    width: 420px;
+}
+
+.items1 {
+  grid-area: download;
+}
+.items2 {
+  grid-area: license;
+}
+.items3 {
+  grid-area: about;
+}
+.items4 {
+  grid-area: features;
+}
+.items5 {
+  grid-area: pricing;
+}
+.items6 {
+  grid-area: news;
+}
+.items7 {
+  grid-area: help;
+}
+.items8 {
+  grid-area: contact;
+}
