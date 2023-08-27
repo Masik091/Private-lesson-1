@@ -15,6 +15,13 @@ h3 {
   margin: 0;
   padding: 0;
 }
+.first {
+  width: 100%;
+  background-image: url(./images/Background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .header {
   display: flex;
   align-items: center;
@@ -51,11 +58,6 @@ h3 {
 .section-one {
   padding-top: 96px;
   display: flex;
-  width: 100%;
-  background-image: url(./images/Background.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .hero {
 }
