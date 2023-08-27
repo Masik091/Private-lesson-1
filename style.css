@@ -402,6 +402,12 @@ nav {
   color: var(--text-footer);
 }
 
+.footer-main {
+  display: flex;
+  flex-direction: row; 
+  column-gap: 617px;
+}
+
 .footer-div-one{
   display: flex;
   row-gap: 24px;
@@ -446,3 +452,18 @@ nav {
 .items8 {
   grid-area: contact;
 }
+.footer-two{
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  row-gap: 16px;
+}
+.badge-1{
+  display: flex;
+  width: 135px;
+  height: 40px;}
+
+.badge-2{
+  display: flex;
+  width: 135px;
+  height: 40px;}
