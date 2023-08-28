@@ -153,6 +153,8 @@ h3 {
 }
 .section-four {
   background-color: var(--sct-four);
+  background-image: url(./images/Quote\ mark.png);
+  background-repeat: no-repeat;
 }
 .w100 {
   width: 100%;
