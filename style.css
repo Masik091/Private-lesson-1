@@ -151,14 +151,26 @@ h3 {
 .item-6 {
   grid-area: item6;
 }
+/* Section 4 */
+
 .section-four {
   background-color: var(--sct-four);
-  background-image: url(./images/Quote\ mark.png);
-  background-repeat: no-repeat;
+}
+.quote-icon {
+  position: relative;
 }
 .w100 {
   width: 100%;
 }
+.box-title {
+}
+.box-1 {
+}
+.box-2 {
+}
+.box-3 {
+}
+
 .text-sct-four {
   font-family: Inter;
   font-size: 18px;
@@ -431,6 +443,7 @@ nav {
   display: flex;
   row-gap: 24px;
   flex-direction: column;
+  margin-bottom: 64px;
 }
 .footer-logo {
   width: 50px;
