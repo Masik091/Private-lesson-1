@@ -11,10 +11,12 @@
 p,
 h2,
 h1,
-h3 {
+h3,
+body {
   margin: 0;
   padding: 0;
 }
+
 .first {
   width: 100%;
   background-image: url(./images/Background.png);
@@ -26,11 +28,12 @@ h3 {
   display: flex;
   align-items: center;
   gap: 8px;
-  width: 1216px;
+  max-width: 1216px;
+  width: 100%;
   backdrop-filter: blur(50px);
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 20px;
+  padding-top: 20px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 20px;
@@ -51,8 +54,9 @@ h3 {
   gap: 4px;
 }
 .section {
-  width: 1216px;
+  max-width: 1216px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .section-one {
@@ -361,7 +365,8 @@ h3 {
 .button-video-img {
   margin-right: 8px;
 }
-.disflex {
+
+.disflex-one {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -436,17 +441,17 @@ nav {
 .footer-main {
   display: flex;
   flex-direction: row;
-  column-gap: 617px;
+  justify-content: space-between;
+  padding: 64px 0;
 }
 
 .footer-div-one {
   display: flex;
   row-gap: 24px;
   flex-direction: column;
-  margin-bottom: 64px;
 }
 .footer-logo {
-  width: 50px;
+  width: 32px;
 }
 .disflex {
   display: grid;
@@ -458,6 +463,8 @@ nav {
   row-gap: 12px;
   column-gap: 24px;
   width: 420px;
+  list-style: none;
+  padding: 0;
 }
 
 .items1 {
@@ -487,7 +494,6 @@ nav {
 .footer-two {
   display: flex;
   flex-direction: column;
-  margin-top: 64px;
   row-gap: 16px;
 }
 .badge-1 {
