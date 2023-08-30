@@ -160,9 +160,17 @@ body {
 .section-four {
   background-color: var(--sct-four);
 }
-.quote-icon {
-  position: relative;
+.section-four-divone {
+  background-image: url(./images/Quote\ mark.png);
+  background-repeat: no-repeat;
+  background-position-y: 64px;
 }
+.four-one {
+  padding-top: 120px;
+}
+.four-two {
+}
+
 .w100 {
   width: 100%;
 }
