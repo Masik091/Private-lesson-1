@@ -12,7 +12,10 @@ p,
 h2,
 h1,
 h3,
-body {
+h4,
+h5,
+body,
+div {
   margin: 0;
   padding: 0;
 }
@@ -160,27 +163,64 @@ body {
 .section-four {
   background-color: var(--sct-four);
 }
+.container-four {
+  display: flex;
+  justify-content: center;
+  column-gap: 32px;
+}
 .section-four-divone {
   background-image: url(./images/Quote\ mark.png);
   background-repeat: no-repeat;
   background-position-y: 64px;
+  background-position-x: 112px;
 }
 .four-one {
   padding-top: 120px;
 }
 .four-two {
+  padding-top: 196px;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
 }
 
 .w100 {
   width: 100%;
 }
 .box-title {
+  box-sizing: content-box;
+  padding-left: 216px;
+  margin-bottom: 64px;
 }
 .box-1 {
+  box-sizing: content-box;
+  margin-bottom: 156px;
+  margin-left: 320px;
+  max-width: 384px;
+  background-color: var(--text-footer);
+}
+
+.only-text-1 {
+  padding: 32px;
+  gap: 32px;
+  max-width: 288px;
+  width: 100%;
 }
 .box-2 {
+  box-sizing: content-box;
+  max-width: 488px;
+  margin-right: 216px;
+  margin-bottom: 32px;
+  background-color: var(--text-footer);
 }
 .box-3 {
+  box-sizing: content-box;
+  max-width: 384px;
+  margin-right: 320px;
+  margin-bottom: 96px;
+  background-color: var(--text-footer);
 }
 
 .text-sct-four {
@@ -190,6 +230,23 @@ body {
   font-weight: 400;
   line-height: 28px;
   color: var(--text-sct-svn);
+  padding: 32px;
+}
+.mini-title {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  padding-left: 32px;
+}
+.mini-text {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 32px;
 }
 .section-five {
   display: flex;
