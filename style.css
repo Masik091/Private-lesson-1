@@ -292,6 +292,12 @@ div {
   grid-area: item4;
 }
 
+.mini-pic {
+  width: 32px;
+  padding: 8px;
+  margin-right: 16px;
+}
+
 /* section 6 */
 .section-six {
   display: flex;
