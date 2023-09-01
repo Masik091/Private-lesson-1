@@ -21,7 +21,9 @@ div {
   margin: 0;
   padding: 0;
 }
-
+.link {
+  text-decoration: none;
+}
 .first {
   width: 100%;
   background-image: url(./images/Background.png);
@@ -603,3 +605,13 @@ nav {
   width: 135px;
   height: 40px;
 }
+/* WORKSPACE.HTML */
+/*  Header-workspace */
+/* Main-workspace */
+/* Section-1-workspace */
+/* Section-2-workspace */
+/* Section-3-workspace */
+/* Section-4-workspace */
+/* Section-5-workspace */
+/* Section-6-workspace */
+/* Footer-workspace */
