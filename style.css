@@ -607,6 +607,20 @@ nav {
 }
 /* WORKSPACE.HTML */
 /*  Header-workspace */
+.header-w {
+  display: flex;
+  align-items: self-end;
+  gap: 8px;
+  max-width: 1216px;
+  width: 100%;
+  backdrop-filter: blur(50px);
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
 /* Main-workspace */
 /* Section-1-workspace */
 /* Section-2-workspace */
