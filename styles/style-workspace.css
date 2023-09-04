@@ -1,0 +1,46 @@
+/* WORKSPACE.HTML */
+ul {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  list-style: none;
+}
+/*  Header-workspace */
+.header-w {
+  display: flex;
+  max-width: 1170px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+}
+.logo {
+  color: #25a4ad;
+  font-family: Gilroy-Heavy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.disflex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+.disflex-one {
+  display: flex;
+}
+/* Main-workspace */
+/* Section-1-workspace */
+/* Section-2-workspace */
+/* Section-3-workspace */
+/* Section-4-workspace */
+/* Section-5-workspace */
+/* Section-6-workspace */
+/* Footer-workspace */
