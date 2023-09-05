@@ -73,8 +73,7 @@ div {
   padding-top: 96px;
   display: flex;
 }
-.hero {
-}
+
 .title-one {
   color: var(--text);
   font-family: Inter;
@@ -94,8 +93,7 @@ div {
   line-height: 28px;
   color: var(--text-hero);
 }
-.picture {
-}
+
 .section-two {
   display: flex;
   padding: 16px 0px;
@@ -277,8 +275,6 @@ div {
   gap: 32px;
 }
 
-.sub-item {
-}
 .item-download {
   display: flex;
   flex-direction: row;
@@ -442,9 +438,6 @@ div {
   gap: 8px;
 }
 
-.buttons {
-}
-
 .button-start {
   padding: 16px 24px;
   border-radius: 8px;
@@ -457,6 +450,7 @@ div {
   font-weight: 600;
   line-height: 24px;
 }
+
 .button-video {
   padding: 16px 24px;
   border-radius: 8px;
