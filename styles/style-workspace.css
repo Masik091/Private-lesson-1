@@ -170,9 +170,7 @@ padding-bottom: 74px;
   display: flex;
   padding-top: 140px;
 }
-.section-three{
- 
-}
+
 .best{
   color: #313131;
 font-family: Gilroy-Thin;
@@ -202,6 +200,7 @@ font-weight: 400;
 line-height: 147.9%; 
 display: block;
 margin-left: 410px;
+margin-bottom: 80px;
 }
 .pictures-3{
   display: grid;
@@ -216,7 +215,6 @@ margin-left: 410px;
   width: 482px;
   list-style: none;
   padding: 0;
-  margin-top: 80px;
   margin-left: 346px;
 }
 .picture-1{
@@ -235,7 +233,7 @@ margin-left: 410px;
 .button-three{
   margin-top: 80px;
   align-items: center;
-  justify-content: center;
+  
   display: flex;
 }
 .explore-all{
@@ -252,6 +250,39 @@ margin-left: 612px;
 margin-bottom: 140px;
 }
 /* Section-4-workspace */
+.section-4{
+  display: flex;
+  padding-top: 80px;
+  background-color: #F8F8F8;
+}
+.features{
+  display: flex;
+
+}
+.feature-list{
+  display: inline-flex;
+
+}
+.item-feature{}
+.subtitle-extra{
+  color: #25A4AD;
+text-align: center;
+font-family: Gilroy-SemiBold;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.subtitle-4{
+  color: #313131;
+  text-align: center;
+  font-family: Gilroy-SemiBold;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 /* Section-5-workspace */
 /* Section-6-workspace */
 /* Footer-workspace */
