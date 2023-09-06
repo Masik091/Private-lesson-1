@@ -202,8 +202,54 @@ font-weight: 400;
 line-height: 147.9%; 
 display: block;
 margin-left: 410px;
+}
+.pictures-3{
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "webdevelopment webdesign"
+    "database seo";
+  row-gap: 40px;
+  column-gap: 40px;
+  width: 482px;
+  list-style: none;
+  padding: 0;
+  margin-top: 80px;
+  margin-left: 346px;
+}
+.picture-1{
+  grid-area: webdevelopment;
+}
+.picture-2{  grid-area: webdesign;
+}
+.picture-3{  grid-area: database;
+}
+.picture-4{  grid-area: seo;
+}
 
-
+.pictures-all{
+  width: 482px;
+}
+.button-three{
+  margin-top: 80px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.explore-all{
+  color: #25A4AD;
+font-family: Gilroy-Medium;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 18px 65px;
+border-radius: 1px;
+border-color: #25A4AD;
+margin-left: 612px;
+margin-bottom: 140px;
 }
 /* Section-4-workspace */
 /* Section-5-workspace */
