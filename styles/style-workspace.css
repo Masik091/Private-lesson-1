@@ -257,15 +257,19 @@ margin-bottom: 140px;
 }
 .features{
   display: flex;
+  justify-content: center;
 
 }
 .feature-list{
   display: inline-flex;
 
 }
-.item-feature{}
+.item-feature{
+  justify-content: center;
+  align-items: center;
+}
 .subtitle-extra{
-  color: #25A4AD;
+color: #25A4AD;
 text-align: center;
 font-family: Gilroy-SemiBold;
 font-size: 22px;
@@ -284,5 +288,72 @@ line-height: normal;
 }
 
 /* Section-5-workspace */
+.section-5{
+  
+}
+.director{
+  display: flex;
+  gap: 20px;
+  margin-left: 135px;
+}
+.director-image{
+  width: 482px;
+}
+.director-description{
+  padding: 104px 40px 136px;
+  background-color: #F8F8F8;
+}
+.director-title{
+  color: #313131;
+font-family: Gilroy-SemiBold;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 25px;
+}
+.description{
+  color: #313131;
+font-family: Gilroy-Regular;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 147.9%;
+width: 588px;
+padding-bottom: 10px;
+display: flex;
+margin-block-start: 0em;
+margin-block-end: 0em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+.stars{
+  background-color: inherit;
+  margin-bottom: 20px;
+}
+.robert{
+  color: #313131;
+font-family: Gilroy-Medium;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 6px;
+}
+.role{
+  color: #313131;
+font-family: Gilroy-Regular;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.arrows{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin-top: 78px;
+margin-bottom: 140px;
+}
 /* Section-6-workspace */
 /* Footer-workspace */
