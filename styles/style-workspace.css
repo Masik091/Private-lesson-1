@@ -554,7 +554,7 @@ li.item-list-6:not(:last-child) {
   margin-bottom: 80px;
 }
 .sub-faqs-1 {
-  display: inline;
+  display: flex;
   box-sizing: border-box;
   border-radius: 10px;
   background: #fff;
@@ -562,7 +562,9 @@ li.item-list-6:not(:last-child) {
   max-width: 706px;
   margin-bottom: 30px;
 }
-
+.par-7 {
+  display: block;
+}
 .sub-faqs {
   display: flex;
   box-sizing: border-box;
@@ -598,9 +600,108 @@ li.item-list-6:not(:last-child) {
   margin: 34px 31px 40px 43px;
 }
 .minus {
-  display: inline;
   width: 26px;
-  height: 3px;
   margin: 34px 31px 40px 43px;
 }
 /* Footer-workspace */
+.footer-workspace {
+  background-color: #313131;
+  color: #fff;
+}
+.title-footer {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Gilroy-SemiBold;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 76px;
+  padding-top: 175px;
+  padding-bottom: 62px;
+}
+.footerbutton {
+  color: #fff;
+  font-family: Gilroy-Medium;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 1px solid #fff;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: inherit;
+  width: 218px;
+  padding: 22px 44px 21px;
+  align-items: center;
+  display: flex;
+}
+.footer-context {
+  display: flex;
+  margin-top: 180px;
+  margin-bottom: 83px;
+  align-items: center;
+  justify-content: center;
+}
+.div-footer-1 {
+  margin-right: 237px;
+}
+.div-footer-2 {
+  margin-right: 188px;
+}
+.div-footer-3 {
+  margin-right: 168px;
+}
+
+.footer-logo {
+  max-width: 118px;
+  margin-bottom: 23px;
+}
+.small-text {
+  color: #fff;
+  font-family: Gilroy-Medium;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 168px;
+}
+.small-footer-title {
+  color: #fff;
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 36px;
+}
+li.footer-item:not(:last-child) {
+  margin-bottom: 26px;
+}
+
+.footer-item-extra {
+  margin-bottom: 23px;
+}
+
+.footer-list {
+  color: #fff;
+  font-family: Gilroy-Medium;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 26px;
+}
+.sub-text-footer {
+  color: #fff;
+  font-feature-settings: "liga" off;
+  font-family: Gilroy-Medium;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 27px;
+}
