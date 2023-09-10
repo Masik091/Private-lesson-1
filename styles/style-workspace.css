@@ -386,6 +386,13 @@ ul {
 }
 .main-list-6 {
   display: flex;
+  gap: 42px;
+}
+li.item-list-6a:not(:last-child) {
+  margin-bottom: 16px;
+}
+li.item-list-6:not(:last-child) {
+  margin-bottom: 16px;
 }
 .title-6 {
   color: #313131;
@@ -394,10 +401,22 @@ ul {
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
-  line-height: 100%; /* 30px */
+  line-height: 100%;
   text-transform: capitalize;
+  margin-top: 50px;
 }
+.for-starter {
+  margin-bottom: 17px;
+}
+.for-teams {
+  margin-bottom: 18px;
+}
+.for-company {
+  margin-bottom: 36px;
+}
+
 .title-6-a {
+  margin-top: 50px;
   color: #25a4ad;
   text-align: center;
   font-family: Gilroy-SemiBold;
@@ -417,6 +436,36 @@ ul {
   line-height: normal;
   text-transform: capitalize;
 }
+.fifty-nine {
+  margin-bottom: 34px;
+}
+.ninty-nine {
+  margin-bottom: 34px;
+}
+.custom {
+  margin-bottom: 44px;
+}
+.one {
+  border: 1px solid;
+  border-color: #d8d8d8;
+  max-width: 362px;
+  justify-content: center;
+}
+.two {
+  border: 1px solid;
+  border-color: #fff;
+  box-shadow: 0px 1.85185px 3.14815px 0px rgba(49, 49, 49, 0.02),
+    0px 20px 13px 0px rgba(49, 49, 49, 0.05),
+    0px 38.51852px 25.48148px 0px rgba(49, 49, 49, 0.06);
+  max-width: 362px;
+  justify-content: center;
+}
+.three {
+  border: 1px solid;
+  border-color: #d8d8d8;
+  max-width: 362px;
+  justify-content: center;
+}
 .text-6-a {
   color: #25a4ad;
   text-align: center;
@@ -434,6 +483,9 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: 100%;
+  margin-left: 50px;
+  margin-right: auto;
+  list-style-image: url("./../images-workspace/vmark.png");
 }
 .list-6-a {
   color: #25a4ad;
@@ -442,7 +494,9 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: 100%;
-  list-style-image: url("./../images-workspace/vmark.png");
+  margin-left: 50px;
+  margin-right: auto;
+  list-style-image: url("./../images-workspace/Vectorvmarkblue.png");
 }
 .item-list-6 {
   color: #313131;
@@ -450,11 +504,103 @@ ul {
 .item-list-6a {
   color: #25a4ad;
 }
-.item-list-6::marker {
-  content: "";
-  display: block;
-  width: 20px;
-  height: 20px;
-  background-image: url("./../images-workspace/vmark.png");
+.button-one-three {
+  color: #25a4ad;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 19px 78px;
+  margin-top: 49px;
+  margin-bottom: 50px;
+  margin-left: 42px;
+  margin-right: 42px;
+}
+.button-two {
+  color: #fff;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #25a4ad;
+  padding: 19px 78px;
+  margin-top: 49px;
+  margin-bottom: 50px;
+  margin-left: 42px;
+  margin-right: 42px;
+}
+/* Section 7 */
+.section-7 {
+}
+.faqs {
+  margin-top: 140px;
+  max-width: 706px;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 140px;
+}
+.faqs-title {
+  color: #25a4ad;
+  font-family: Gilroy-SemiBold;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.sub-faqs-1 {
+  display: inline;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 20px 95px 0px rgba(201, 203, 204, 0.3);
+  max-width: 706px;
+  margin-bottom: 30px;
+}
+
+.sub-faqs {
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 20px 95px 0px rgba(201, 203, 204, 0.3);
+  max-width: 706px;
+}
+.sub-faqs:not(:last-child) {
+  margin-bottom: 30px;
+}
+.text-7 {
+  color: #313131;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 26px;
+  padding-right: 114px;
+  padding-bottom: 26px;
+}
+.sub-text-7 {
+  color: #313131;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147.9%;
+}
+.img-7 {
+  width: 26px;
+  margin: 34px 31px 40px 43px;
+}
+.minus {
+  display: inline;
+  width: 26px;
+  height: 3px;
+  margin: 34px 31px 40px 43px;
 }
 /* Footer-workspace */
