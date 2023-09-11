@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Gilroy-SemiBold;
+  src: local("Gilroy-SemiBold"),
+    url("./../fonts/Gilroy-SemiBold.ttf") format("truetype");
+}
 /* WORKSPACE.HTML */
 p,
 h2,
@@ -641,7 +646,7 @@ li.item-list-6:not(:last-child) {
   display: flex;
   margin-top: 180px;
   margin-bottom: 83px;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 .div-footer-1 {
@@ -657,6 +662,7 @@ li.item-list-6:not(:last-child) {
 .footer-logo {
   max-width: 118px;
   margin-bottom: 23px;
+  margin-top: ;
 }
 .small-text {
   color: #fff;
