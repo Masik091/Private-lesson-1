@@ -3,6 +3,17 @@
   src: local("Gilroy-SemiBold"),
     url("./../fonts/Gilroy-SemiBold.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: Gilroy-Medium;
+  src: local("Gilroy-Medium"),
+    url("./../fonts/Gilroy-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: Gilroy-Thin;
+  src: local("Gilroy-Thin"),
+    url("./../fonts/Gilroy-Thin.ttf") format("truetype");
+}
 /* WORKSPACE.HTML */
 p,
 h2,
@@ -56,6 +67,14 @@ ul {
 .disflex-one {
   display: flex;
 }
+.list-item {
+  color: #313131;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 .list-header {
   display: flex;
   padding: 4px 8px;
@@ -108,7 +127,7 @@ ul {
   background-repeat: no-repeat;
   background-position: right bottom;
   min-height: 100vh;
-  height: 100vh;
+  height: 906px;
 }
 .title {
   color: #313131;
@@ -168,12 +187,15 @@ ul {
   height: 58px;
 }
 /* Section-2-workspace */
+.section-2 {
+  background-color: #f8f8f8;
+  max-width: 100%;
+}
 .disflex-two {
   list-style: none;
   display: flex;
   flex-direction: row;
   gap: 100px;
-  background-color: #f8f8f8;
   align-items: center;
   justify-content: center;
   padding-top: 73px;
