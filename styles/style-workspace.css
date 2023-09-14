@@ -86,8 +86,7 @@ ul {
   align-items: center;
   gap: 50px;
 }
-.buttons {
-}
+
 .sign-in-btn {
   margin-right: 28px;
   color: #313131;
@@ -206,8 +205,7 @@ ul {
   padding-top: 73px;
   padding-bottom: 74px;
 }
-.logo-list {
-}
+
 /* Section-3-workspace */
 .section-3 {
   display: flex;
@@ -323,7 +321,7 @@ ul {
     0px 20px 13px 0px rgba(49, 49, 49, 0.05),
     0px 38.51852px 25.48148px 0px rgba(49, 49, 49, 0.06);
   padding: 38px 33px 40px;
-  margin-right: 40px;
+  max-width: 350px;
 }
 .learn-1 {
   text-align: center;
@@ -349,8 +347,12 @@ ul {
   background-color: inherit;
   border: 1px solid #d8d8d8;
   padding: 38px 33px 40px;
+  max-width: 350px;
+}
+.item-feature:not(:last-child) {
   margin-right: 40px;
 }
+
 .subtitle-extra {
   color: #25a4ad;
   text-align: center;
@@ -375,15 +377,14 @@ ul {
   color: #313131;
   text-align: center;
   font-family: Gilroy-Regular;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 147.9%;
   margin-bottom: 49px;
 }
 /* Section-5-workspace */
-.section-5 {
-}
+
 .best-5 {
   padding-top: 140px;
 }
@@ -582,8 +583,9 @@ li.item-list-6:not(:last-child) {
 }
 .button-one-three {
   color: #25a4ad;
+  background-color: inherit;
   font-family: Gilroy-Medium;
-  font-size: 18px;
+  font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -592,11 +594,12 @@ li.item-list-6:not(:last-child) {
   margin-bottom: 50px;
   margin-left: 42px;
   margin-right: 42px;
+  border: 1px solid #25a4ad;
 }
 .button-two {
   color: #fff;
   font-family: Gilroy-Medium;
-  font-size: 18px;
+  font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -606,10 +609,10 @@ li.item-list-6:not(:last-child) {
   margin-bottom: 50px;
   margin-left: 42px;
   margin-right: 42px;
+  border-color: inherit;
 }
 /* Section 7 */
-.section-7 {
-}
+
 .faqs {
   margin-top: 140px;
   max-width: 706px;
@@ -649,6 +652,7 @@ li.item-list-6:not(:last-child) {
   box-shadow: 0px 20px 95px 0px rgba(201, 203, 204, 0.3);
   max-width: 706px;
 }
+
 .sub-faqs:not(:last-child) {
   margin-bottom: 30px;
 }
@@ -663,6 +667,18 @@ li.item-list-6:not(:last-child) {
   padding-right: 114px;
   padding-bottom: 26px;
 }
+.text-7-middle {
+  color: #313131;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 38.5px;
+  padding-right: 114px;
+  padding-bottom: 26px;
+}
+
 .sub-text-7 {
   color: #313131;
   font-family: Gilroy-Regular;
@@ -670,6 +686,7 @@ li.item-list-6:not(:last-child) {
   font-style: normal;
   font-weight: 400;
   line-height: 147.9%;
+  padding-bottom: 25px;
 }
 .img-7 {
   width: 26px;
@@ -733,7 +750,6 @@ li.item-list-6:not(:last-child) {
 .footer-logo {
   max-width: 118px;
   margin-bottom: 23px;
-  margin-top: ;
 }
 .small-text {
   color: #fff;
