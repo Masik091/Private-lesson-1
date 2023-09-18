@@ -49,7 +49,7 @@ ul {
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 95px;
+  padding-top: 60px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 15px;
@@ -209,6 +209,10 @@ ul {
   padding-top: 130px;
 }
 
+.sub-div-3{
+  margin-left: auto;
+  margin-right: auto;
+}
 .best {
   color: #313131;
   font-family: Gilroy-Thin;
@@ -238,7 +242,7 @@ ul {
   font-weight: 400;
   line-height: 147.9%;
   display: block;
-  margin-bottom: 49px;
+  margin-bottom: 76px;
 }
 .pictures-3 {
   display: grid;
@@ -295,6 +299,10 @@ ul {
   margin-bottom: 140px;
   margin-right: auto;
 }
+.explore-all-3 {
+  margin-top: 0;
+}
+
 /* Section-4-workspace */
 .section-4 {
   display: flex;

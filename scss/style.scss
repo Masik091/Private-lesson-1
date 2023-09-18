@@ -1,0 +1,53 @@
+@import './font';
+
+
+$color-main: red;
+
+
+%button {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+}
+
+button {
+    background-color: transparent;
+    @extend %button;
+}
+.button-error {
+    background-color: red;
+    @extend %button;
+}
+
+.button-success {
+    background-color: green;
+    @extend %button;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-w {
+    display: flex;
+    max-width: 1170px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+
+    & .logo {
+        color: #25a4ad;
+        font-family: Gilroy-Heavy;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+.section-1 {
+
+}
