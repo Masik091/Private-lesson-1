@@ -391,12 +391,12 @@ ul {
 /* Section-5-workspace */
 
 .best-5 {
-  padding-top: 140px;
+  padding-top: 133px;
 }
 .director {
   display: flex;
   gap: 20px;
-  margin-left: 135px;
+  
 }
 .director-image {
   width: 482px;
@@ -532,6 +532,8 @@ li.item-list-6:not(:last-child) {
   border-color: #d8d8d8;
   max-width: 362px;
   justify-content: center;
+  margin-top: 100px;
+
 }
 .two {
   border: 1px solid;
@@ -541,12 +543,14 @@ li.item-list-6:not(:last-child) {
     0px 38.51852px 25.48148px 0px rgba(49, 49, 49, 0.06);
   max-width: 362px;
   justify-content: center;
+  margin-top: 45px;
 }
 .three {
   border: 1px solid;
   border-color: #d8d8d8;
   max-width: 362px;
   justify-content: center;
+  margin-top: 100px;
 }
 .text-6-a {
   color: #25a4ad;
@@ -616,6 +620,21 @@ li.item-list-6:not(:last-child) {
   margin-right: 42px;
   border-color: inherit;
 }
+.button-four{
+  color: #25a4ad;
+  background-color: inherit;
+  font-family: Gilroy-Medium;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 19px 78px;
+  margin-top: 85px;
+  margin-bottom: 50px;
+  margin-left: 42px;
+  margin-right: 42px;
+  border: 1px solid #25a4ad;
+}
 /* Section 7 */
 
 .faqs {
@@ -635,7 +654,8 @@ li.item-list-6:not(:last-child) {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
+  padding-top: 49px;
 }
 .sub-faqs-1 {
   display: flex;
@@ -656,6 +676,8 @@ li.item-list-6:not(:last-child) {
   background: #fff;
   box-shadow: 0px 20px 95px 0px rgba(201, 203, 204, 0.3);
   max-width: 706px;
+  padding-top: 10px;
+
 }
 
 .sub-faqs:not(:last-child) {
@@ -726,7 +748,7 @@ li.item-list-6:not(:last-child) {
   font-style: normal;
   font-weight: 400;
   line-height: 76px;
-  padding-top: 175px;
+  padding-top: 170px;
   padding-bottom: 62px;
 }
 .footerbutton {
@@ -751,13 +773,13 @@ li.item-list-6:not(:last-child) {
   margin-bottom: 83px;
   align-items: flex-start;
   justify-content: center;
+  margin-left: 100px;
 }
 .div-footer-1 {
   margin-right: 237px;
 }
 .div-footer-2 {
-  margin-right: 188px;
-}
+  margin-right: 145px;}
 .div-footer-3 {
   margin-right: 168px;
 }
