@@ -773,8 +773,7 @@ li.item-list-6:not(:last-child) {
   margin-bottom: 83px;
   align-items: flex-start;
   justify-content: center;
-  margin-left: 100px;
-}
+  margin-left: 70px;}
 .div-footer-1 {
   margin-right: 237px;
 }
@@ -786,8 +785,7 @@ li.item-list-6:not(:last-child) {
 
 .footer-logo {
   max-width: 118px;
-  margin-bottom: 23px;
-}
+  margin-bottom: 15px;}
 .small-text {
   color: #fff;
   font-family: Gilroy-Medium;
