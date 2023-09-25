@@ -1,0 +1,1 @@
+@media screen and (max-width: 1440px){header{padding-left:40px;padding-right:40px;box-sizing:border-box}header .navigation{display:none}header .buttons{display:flex;align-items:center;gap:20px}header .buttons .burger-menu{display:inline-block}header .buttons .burger-menu i{font-size:24px}}

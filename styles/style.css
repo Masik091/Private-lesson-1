@@ -610,3 +610,6 @@ nav {
   width: 135px;
   height: 40px;
 }
+.burger-menu {
+  display: none;
+}

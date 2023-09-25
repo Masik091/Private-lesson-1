@@ -1,0 +1,31 @@
+@media screen and (max-width: 1440px) {
+    header {
+        padding-left: 40px;
+        padding-right: 40px;
+        box-sizing: border-box;
+
+        .navigation {
+            display: none;
+        }
+    
+        .buttons {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+    
+            .burger-menu {
+                display: inline-block;
+                & i {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+
+}
+@media screen and (max-width: 1024px) {
+    // tablets
+}
+@media screen and (max-width: 768px) {
+     // mobile
+}
