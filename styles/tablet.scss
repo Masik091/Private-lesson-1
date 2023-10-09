@@ -1,4 +1,4 @@
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1240px) {
     $text-hero:#374151;
 $btn-clr:#7C3AED;
     header {
@@ -25,6 +25,10 @@ $btn-clr:#7C3AED;
         
     }
     .section-one{
+        display: flex;
+flex-direction: column;
+align-items: center;
+
         .title-one {
                 padding-left: 40px;
                 padding-right: 40px;
@@ -56,6 +60,7 @@ $btn-clr:#7C3AED;
                 font-style: normal;
                 font-weight: 600;
                 line-height: 24px;
+                margin-left: 40px;
             }
         
             .button-video {
@@ -78,8 +83,73 @@ $btn-clr:#7C3AED;
                 width: 100%;
             }
     }
+    .section-two{display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+        .disflex-two {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 720px;
+            row-gap: 34px;
+        }
+        .section-three{
+                text-align: center;
+                    max-width: 800px;
+                    margin: 80px auto 64px auto;
+        }
+        
+.list {
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 96px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        "item1 item2" 
+        "item3 item4" 
+        "item5 item6";
+    gap: 64px;
+    column-gap: 30px;
+}
+.container-four{
+display: block;
+}
+.section-four{
+padding: 0 40px;}
+.box-1{
+            margin-bottom: 0;
+            margin-left: 0;
+            max-width: 100%;
+            padding-bottom: 32px;
+}
+.four-two{
+    width: 100%;
+        padding-top: 0;
+        margin-top: 24px;
+        padding-bottom: 80px;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+}
+.box-2{
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 24px;
+}
+.box-3{
+    max-width: 100%;
+        margin: 0;
 
 }
+}
+
+
 @media screen and (max-width: 1024px) {
     // tablets
 }
