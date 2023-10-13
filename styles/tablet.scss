@@ -1,6 +1,9 @@
 @media screen and (max-width: 1240px) {
     $text-hero:#374151;
 $btn-clr:#7C3AED;
+.section {
+    box-sizing: border-box;
+}
     header {
         padding-left: 40px;
         padding-right: 40px;
@@ -145,7 +148,74 @@ padding: 0 40px;}
 .box-3{
     max-width: 100%;
         margin: 0;
-
+}
+.section-five {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px;
+    gap: 32px;
+}
+.number {
+    color: var(--number);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.9px;
+}
+.section-six{
+    padding: 80px 40px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 8px;
+}
+.title-two {
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: -0.9px;
+    margin-bottom: 0;
+}
+.container-logo{
+    margin: 0 28px;
+    padding: 24px 0;
+        max-width: 272px;
+        row-gap: 20px;
+}
+.container-logo img {
+    width: 39px;
+}
+.container-logo .circle {
+    width: 328px;
+    height: 164px;
+    margin-left: -30px;
+}
+.section-seven{
+    padding: 80px 40px 0;
+}
+.svn-bg{
+    display: flex;
+    flex-direction: column;
+}
+.title-svn{
+    font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: -0.9px;
+}
+.pictures{
+    align-items: center;
+}
+.footer-main{
+    padding: 64px 40px;
 }
 }
 
