@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 16px 20px;
+        margin-bottom: 0;
+        
+        .navigation {
+                    display: none;
+        }
+        .buttons img {
+            display: none;
+        }
+    }
+
+    main{
+        padding: 40px 20px 0;
+
+        .section-one{
+            padding-top: 0;
+            .title-one {
+                font-size: 36px;
+                line-height: 45px;
+                letter-spacing: -0.9px;
+                margin-top: 0;
+            }
+        
+            .text-hero {
+                font-size: 18px;
+                line-height: 28px;
+            }
+            .hero{
+                padding-bottom: 40px;
+            }
+            .picture{
+                margin-top: 40px;
+                margin-bottom: 94px;
+            }
+        }
+    }
+    footer{
+        padding: 40px 20px;
+    }
+}
