@@ -33,8 +33,26 @@
             .picture{
                 margin-top: 40px;
                 margin-bottom: 94px;
-            }
+            }            
         }
+           .section-two {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               padding: 0;
+               
+               .disflex-two {
+               display: flex;
+               flex-wrap: wrap;
+               max-width: 335px;
+               row-gap: 32px;
+           }
+           .list-logo{
+            max-width: 335px;
+           }
+           }
+    
+           
     }
     footer{
         padding: 40px 20px;
