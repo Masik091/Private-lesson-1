@@ -12,8 +12,11 @@
     }
 
     main{
-        padding: 40px 20px 0;
 
+        padding: 40px 20px 0;
+.section{
+    width: 100%;
+}
         .section-one{
             padding-top: 0;
             .title-one {
@@ -166,11 +169,40 @@
             display: block;
             gap: 40px;
             padding: 0 51px;
-            height: 867px;
+            height: 641px;      
+        
+        .picture-1 {
+            display: block;
+            width: 232px;
         }
+        .picture-2 {
+            width: 232px;
+        }
+        }
+          
             }
            
-    footer {
+   .footer-cont { 
         padding: 40px 20px;
+        flex-direction: column;
+    .disflex {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "download download license . . ."
+            "about features pricing news" 
+            "help contact";
+        row-gap: 12px;
+        column-gap: 24px;
+        width: 335px;
+        list-style: none;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
     }
+}
+   }
+    
+
 }
