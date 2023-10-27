@@ -13,10 +13,13 @@
 
     main{
 
-        padding: 40px 20px 0;
-.section{
-    width: 100%;
-}
+        padding-top: 40px;
+        .picture img{
+            width: 100%;
+        }
+        .section{
+            width: 100%;
+        }
         .section-one{
             padding-top: 0;
             .title-one {
@@ -82,8 +85,9 @@
         }
         .text-sct-three {   
             padding: 0 16px;    
-                }
-             .list {
+        }
+        
+        .list {
                 margin-left: auto;
                 margin-top: 0px;
                 margin-bottom: 48px;
@@ -99,38 +103,40 @@
                     "item6";
                 gap: 64px;
                 column-gap: 30px;
-            }
+        }
+
         .section-four{
-                margin-left: 20px;
-                margin-right: 20px;
-                width: 100%;
-                .four-one{
+
+            .four-one{
                 padding-top: 80px;
-.box-title{
-    display: flex;
-    justify-content: center;
-    padding-left: 0;
-    flex-direction: column;
-    gap: 8px;
-} 
-            }
+                .box-title{
+                    display: flex;
+                    justify-content: center;
+                    padding-left: 0;
+                    flex-direction: column;
+                    gap: 8px;
+                } 
             }
         }
+        
         .section-five{
-            margin: 48px 20px;
+            margin: 48px 0;
             padding: 0;
 
         }
-           .title-two {
-               justify-content: center;
-               font-size: 30px;
-               line-height: 40px;
-    }
-    .text {
-        font-size: 16px;
-        font-style: normal;
-        line-height: 24px;
-    }
+
+        .title-two {
+            justify-content: center;
+            font-size: 30px;
+            line-height: 40px;
+        }
+
+        .text {
+            font-size: 16px;
+            font-style: normal;
+            line-height: 24px;
+        }
+
         .list-3{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
@@ -142,67 +148,82 @@
                 "item4";
             row-gap: 24px;
         }
-.section-six{
-        display: flex;
+
+        .section-six{
+            display: flex;
             flex-direction: column;
-            margin: 40px 20px;
+            margin: 40px 0;
             padding: 20px 0;
             gap: 16px;
 
-   .circle {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            .circle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
         }
-        }
-    .section-seven {
+        
+        .section-seven {
             display: flex;
             padding: 48px 20px 0;
-        .title-svn{
-            margin-top: 0;
-        }
-        .sect-svn {
-            width: 100%;
-        }
-        
-        .pictures{
-            display: block;
-            gap: 40px;
-            padding: 0 51px;
-            height: 641px;      
-        
-        .picture-1 {
-            display: block;
-            width: 232px;
-        }
-        .picture-2 {
-            width: 232px;
-        }
-        }
-          
-            }
-           
-   .footer-cont { 
-        padding: 40px 20px;
-        flex-direction: column;
-    .disflex {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-areas:
-            "download download license . . ."
-            "about features pricing news" 
-            "help contact";
-        row-gap: 12px;
-        column-gap: 24px;
-        width: 335px;
-        list-style: none;
-        padding: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-}
-   }
-    
 
+            .title-svn{
+                margin-top: 0;
+            }
+
+            .sect-svn {
+                width: 100%;
+            }
+        
+            .pictures{
+                box-sizing: border-box;
+                display: block;
+                padding: 0 51px;
+                height: 641px;      
+            
+                .picture-1,
+                .picture-2,
+                img {
+                    align-self: center;
+                }
+
+                .picture-1 {
+                    display: block;
+                    width: 232px;
+                }
+                .picture-2 {
+                    width: 232px;
+                }
+                
+            }  
+        }
+           
+
+    }
+
+    .footer-cont {
+        padding: 0 20px;
+        flex-direction: column;
+
+        .footer-main {
+            flex-direction: column;
+        }
+
+        .disflex {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-areas:
+                "download download license ."
+                "about features pricing news"
+                "help contact . .";
+            row-gap: 12px;
+            column-gap: 24px;
+            width: 335px;
+            list-style: none;
+            padding: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
 }
