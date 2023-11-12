@@ -54,7 +54,24 @@
                flex-wrap: wrap;
                max-width: 335px;
                row-gap: 32px;
+               
+               img {
+                order: 1;
+               }
+
+               .two {
+                order: 4;
+               }
+    
+               img:nth-child(5) {
+                order: 6;
+               }
+               
+               img:nth-child(3) {
+                order: 2;
+               }
            }
+
            
            .list-logo {
                 max-width: 335px;
